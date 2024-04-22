@@ -24,7 +24,7 @@ int main()
     s.qTreeCapacity = 1;
 
     float startRadius = 500;
-    float particleNumber = 10000;
+    float particleNumber = 1000;
     float totalMass = particleNumber * 0.5 * (s.minMass + s.maxMass);
 
     for (int i = 0; i < particleNumber; i++)
